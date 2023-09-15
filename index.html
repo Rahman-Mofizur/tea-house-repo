@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea-House</title>
+
+    <!-- Daisy UI CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Custom Styles -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/56cb881e3f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My Custom Styles -->
+    <style>
+      .font-Manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!--  -->
+      <nav
+        class="py-10 md:py-16 pl-10 md:pl-32 lg:pl-52 pr-10 lg:pr-20 bg-base-200"
+      >
+        <div
+          class="flex flex-col md:flex-row justify-between items-center gap-10 md:gap-2"
+        >
+          <!-- Writings -->
+          <div class="md:space-y-3">
+            <h1
+              class="text-3xl md:text-4xl lg:text-6xl font-bold md:font-extrabold lg:leading-[85px]"
+            >
+              It's good <br />tea time at The<br />
+              Tea House
+            </h1>
+            <p class="py-7 text-base md:text-xl">
+              Tea and Botanical Solutions Supplier Give Optimum <br />
+              Satisfaction To Your Taste Buds.
+            </p>
+            <button
+              class="btn btn-primary bg-gradient-to-r from-purple-500 to-pink-500 border-none"
+            >
+              Explore More
+              <i class="fa-solid fa-square-arrow-up-right"></i>
+            </button>
+          </div>
+
+          <!-- Images -->
+          <div class="px-5">
+            <img src="images/banner.png" class="rounded-lg" />
+            <div
+              class="-mt-20 md:-mt-28 md:ml-20 flex flex-row justify-center items-center gap-3 md:gap-5 bg-white drop-shadow-md px-3 md:px-7 py-2 md:py-5 max-w-fit rounded-xl"
+            >
+              <i
+                class="fa-solid fa-star text-2xl md:text-3xl lg:text-4xl"
+                style="color: #fff082"
+              ></i>
+              <div>
+                <h1
+                  class="text-xl md:text-2xl lg:text-3xl font-bold md:font-extrabold"
+                >
+                  5.00
+                </h1>
+                <p>Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="px-5 relative">
+            <img src="images/banner.png" class="rounded-lg" />
+            <div
+              class="flex flex-row justify-self-center items-center gap-5 bg-slate-50 px-7 py-5 max-w-64 rounded-xl absolute bottom-9 left-24 md:bottom-4"
+            >
+              <i
+                class="fa-solid fa-star text-2xl md:text-3xl lg:text-4xl"
+                style="color: #fff082"
+              ></i>
+              <div>
+                <h1
+                  class="text-xl md:text-2xl lg:text-3xl font-bold md:font-extrabold"
+                >
+                  5.00
+                </h1>
+                <p>Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--  Featured Products Carts Section -->
+      <section>
+        <div class="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <img
+              src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <!--  -->
+    </footer>
+  </body>
+</html>
